@@ -17,4 +17,10 @@ function exibeDiscos(posicao) {
     prc.innerHTML = "<p>Interface: " + discos[posicao][2] + "</p>" +
         "<p>Capacidade:  " + discos[posicao][3] + "</p>" +
         "<p>Preço: R$  " + discos[posicao][4]+",00</p>"; 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 72b06e38b4e299eb8cf7bd95d6d64d61908003c9
 }
