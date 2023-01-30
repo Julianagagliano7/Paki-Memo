@@ -307,8 +307,11 @@ input {
     text-align:left;
     font-size: 18px;
     margin-left:15px;
+<<<<<<< HEAD
 }
 
 a:hover {
     text-decoration: underline;
+=======
+>>>>>>> 72b06e38b4e299eb8cf7bd95d6d64d61908003c9
 }
