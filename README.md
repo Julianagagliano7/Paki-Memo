@@ -1,7 +1,14 @@
-#Paki Memo 
+#College Project 
+### Welcome to our dynamic project using HTML5, CSS3 and JavaScript! 
 
+This project was an opportunity to showcase my web development skills and demonstrate my ability to create a dynamic and interactive website. I am confident that this experience will serve me well in future endeavors. 
 
-Este projeto é fruto de uma avaliação prática da minha universidade, cujo objetivo foi promover a criação de um Web Site integrando as tecnologias: HTML, CSS e JavaScript. 
-A partir destes conhecimentos técnicos, implementei o desenvolvimento de uma loja virtual que vende componentes de hardware para computadores em geral. 
+<img src="../img-done/1.png">
+<img src="../img-done/2.png"> 
+<img src="../img-done/3.png"> 
+<img src="../img-done/4.png"> 
+<img src="../img-done/5.png"> 
 
+#Deploy 
 
+https://julianagagliano7.github.io/Paki-Memo/html/PakiMemo.html
