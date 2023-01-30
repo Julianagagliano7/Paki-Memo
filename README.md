@@ -3,8 +3,10 @@
 
 This project was an opportunity to showcase my web development skills and demonstrate my ability to create a dynamic and interactive website. I am confident that this experience will serve me well in future endeavors. 
 
-<img src="img-fone/1.png">
+<img src="../img-done/1.png">
 
 # Deploy 
+
+https://julianagagliano7.github.io/Paki-Memo/html/PakiMemo.html
 
 
