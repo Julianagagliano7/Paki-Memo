@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Cadastro </title>
+    <link rel="stylesheet" type="text/css" href="../css/stylePakimemo.css">
+    <script type="text/javascript" src="../js/Cadastro.js" ></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Rubik">
+</head>
+
+<body>
+    <address class="ender">
+        Rua do Paço do Elefantinho, 123<br>
+        Tel: (21) 4321-5678<br>
+        <a href="contato@paquiderme.com.br"> contato@paquiderme.com.br </a>
+    </address>
+    <header>
+        <img src="ImagensPakiMemo/PakiLogoTopo.png" class="imgLogo">
+    </header>
+    <nav>
+        <ul type="square">
+            <li> <a href="PakiMemo.html" target="_blank">INICIAL</a> </li>
+            <li> <a href="Memorias.html" target="_blank">MEMÓRIAS</a> </li>
+            <li> <a href="Discos.html" target="_blank">HDs/SSDs</a> </li>
+            <li> <a href="Cadastro.html" target="_blank">CADASTRO</a> </li>
+            <li> <a href="Compras.html" target="_blank">COMPRAS</a> </li>
+        </ul>
+    </nav>
+
+    <section>
+
+        <form class="FormBox">
+            <h3>Cadastro</h3>
+            <fieldset class="FSLinhaInteira">
+                <legend>Identificação</legend>
+                <div class="LinhaForm">
+                    <label class="LabBox">E-mail:</label>
+                    <input class="InpBoxGnd" type="email" name="email"><br>
+                </div>
+                <div class="LinhaForm">
+                    <div class="ColEsq">
+                        <label class="LabBox">Senha:</label>
+                        <input class="InpBoxMed" type="password" name="senha">
+                    </div>
+                    <div class="ColDir">
+                        <label class="LabBox">Confirme:</label>
+                        <input class="InpBoxMed" type="password" name="confirme">
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="FSLinhaInteira">
+                <legend>Dados Pessoais</legend>
+                <div class="LinhaForm">
+                    <label class="LabBox">Nome:</label>
+                    <input class="InpBoxGnd" type="text" name="dadospessoais">
+                </div>
+                <div class="LinhaForm" id="linhaEnder">
+                    <label class="LabBox">Endereço:</label>
+                    <textarea class="InpBoxGnd" id="inpEnder" name="endereço" rows="2"></textarea>
+                </div>
+                <div class="LinhaForm">
+                    <div class="ColEsq">
+                        <label class="LabBox">Telefone:</label>
+                        <input class="InpBoxMed" onChange="VerificaTelef(this, 8);" name="Telefone"
+                            required>
+                    </div>
+                    <div>
+                        <div class="ColDir">
+                            <label class="LabBox">Celular:</label>
+                            <input type="text" class="InpBoxMed" onChange="VerificaTelef(this, 9);" name="Celular" required>
+                        </div>
+
+                        <fieldset class="FSColEsq">
+                            <legend>Nascimento:</legend>
+                            <input class="numDD" type="number" name="nascimento"> /
+                            <input class="numDD" type="number" name="nascimento"> /
+                            <input class="numQD" type="number" name="nascimento">
+                        </fieldset>
+
+                        <fieldset class="FSColDir">
+
+                            <legend>Sexo:</legend>
+                            <input type="radio" name="sexo"><label>Mas</label>
+                            <input type="radio" name="sexo"><label>Fem</label>
+                            <input type="radio" name="sexo" checked><label>Outro</label>
+                        </fieldset>
+
+            </fieldset>
+
+            <div class="botoes">
+                <button type="button" name="button">Cadastrar</button>
+                <button type="reset" name="button">Limpar</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

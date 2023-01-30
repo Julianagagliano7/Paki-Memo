@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HD'S e SSD'S </title>
+    <link rel="stylesheet" type="text/css" href="../css/stylePakimemo.css">
+    <script type="text/javascript" src="../js/Disco.js" ></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Rubik">
+</head>
+
+<body>
+    <address class="ender">
+        Rua do Paço do Elefantinho, 123<br>
+        Tel: (21) 4321-5678<br>
+        <a href="contato@paquiderme.com.br"> contato@paquiderme.com.br </a>
+    </address>
+    <header>
+        <img src="ImagensPakiMemo/PakiLogoTopo.png" class="imgLogo">
+    </header>
+    <nav>
+        <ol class="lista.Memo a">
+            <li> <a href="PakiMemo.html" target="_blank">INICIAL</a> </li>
+            <li> <a href="Memorias.html" target="_blank">MEMÓRIAS</a> </li>
+            <li> <a href="Discos.html" target="_blank">HDs/SSDs</a> </li>
+            <li> <a href="Cadastro.html" target="_blank">CADASTRO</a> </li>
+            <li> <a href="Compras.html" target="_blank">COMPRAS</a> </li>
+        </ul>
+    </nav>
+
+    <section>
+
+        <table class="tabDisco">
+            <tr>
+                <th colspan="3" class="titulo">HDs e SSDs</th>
+            </tr>
+            <tr>
+                <td class="linTH">Tipo/Interface</td>
+                <td class="linTH">Fabricante</td>
+                <td class="linTH">Capacidade</td>
+            </tr>
+
+            <tr>
+            <tr>
+                <th class="colTH" rowspan="2"> HDD Sata III </th>
+                <td class="colMenu"> <a target="_self" href="javascript:exibeDiscos(0)">Western Digital</a> </td>
+                <td rowspan="6">
+                    <div id="titDes"></div>
+                    <img id="imgDes" src="ImagensPakiMemo/vazio.jpg">
+                    <div id="prcDes"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="colMenu"> <a target="_self" href="javascript:exibeDiscos(1)">Seagate</a> </td>
+            </tr>
+
+            <tr>
+                <th class="colTH" rowspan="2"> SSD Sata III </th>
+                <td class="colMenu"> <a target="_self" href="javascript:exibeDiscos(2)"> Samdisk</a> </td>
+            </tr>
+            <tr>
+
+                <td class="colMenu"> <a target="_self" href="javascript:exibeDiscos(3)">Kingston</a> </td>
+
+            </tr>
+            <tr>
+                <th class="colTH" rowspan="2"> SSD M2 </th>
+                <td class="colMenu"> <a target="_self" href="javascript:exibeDiscos(4)">Kingston</a> </td>
+            </tr>
+            <tr>
+
+                <td class="colMenu"> <a target="_self" href="javascript:exibeDiscos(5)">Western Digital</a> </td>
+            </tr>
+            </tr>
+
+        </table>
+
+    </section>
+
+</body>
+
+</html>

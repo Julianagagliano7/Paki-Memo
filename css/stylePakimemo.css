@@ -1,0 +1,314 @@
+body {
+    background-color: #116688;
+    color: #EEEE22;
+    font-family: "Lora",georgia, serif;
+    font-size: 16px;
+}
+
+header {display: block;  margin-bottom: 1px;
+}
+
+.imgLogo {
+    padding-bottom: 5px;
+    border-bottom: solid 3px;
+    margin-bottom: 4px;
+}
+
+
+.apres {
+    text-align: center;
+    font-size: 18px; 
+    font-family:"Lora", georgia, serif;
+}
+
+nav {
+    display: block; width: 18%; float: left;
+    font-family: "Rubik",verdana,sans-serif;
+    margin-right: 10px;
+}
+
+ul,ol{
+    line-height: 200%;
+}
+
+a {text-decoration:none;}
+
+
+a:link {
+    color: #FFFF22;
+}
+
+a:visited {
+    color: #DDDD22;
+}
+
+section {display: block; width: 70%; float: right;}
+
+.Titulo{
+    text-align:center;
+}
+
+.listaMemo{
+    width:340px;
+    color:#AA0000;
+    background:#EEEEEE;
+    padding:10px 10px 10px 50px;
+    border:solid 4px #000055;
+    margin-top:0px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Rubik,Verdana,sans-serif;
+}
+
+.listaMemo ul {
+    color:#114455;
+    list-style-type:disc;
+}
+
+.preco {
+    color: #e00;
+   font-weight:bold;
+   text-align:middle;
+}
+
+
+ .ender {
+    display: block; width: 20%; float: right;
+    font-family: "Lora",georgia ,serif;
+    text-align: right;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.tabDisco{
+    border-collapse:collapse;
+    margin-top:6px;
+    margin-bottom:10px;
+    background-color:#FFFFFF;
+    color:#000066;
+    font-family:"Rubik", Verdana, sans-serif;
+    font-size:14px;
+    padding:10px 10px 10px 50px;
+}
+
+.tabDisco td,.tabDisco th{
+    border:3px solid #226699;
+    padding:6px 12px 6px 12px;
+}
+
+.tabDisco .titulo{
+    color:#FFFF00;
+    background-color:#229955;
+    font-weight:bold;
+    text-align:center;
+    font-size:16px;
+}
+
+.tabDisco .linTH{
+    color:#FFFFFF;
+    background-color:#22BB66;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.tabDisco .colTH{
+    color:#FFFFFF;
+    background-color: #2299DD;
+    text-align:left;
+}
+
+.tabDisco .imgDisco{
+    width:70px;
+    height:70px;
+
+}
+.FormBox{
+    width:520px;
+    background-color:#33BBBB;
+    padding:10px;
+    font-size:16px;
+    text-align:center;
+    margin-top:10px;
+    border:3px solid #EEEE22;
+}
+
+.FSLinhaInteira{
+    color:#FFFFFF;
+    width:490px;
+    text-align:left;
+}
+
+.FSColEsq{
+    width:210px;
+    text-align:center;
+    float:left;
+}
+
+.FSColDir{
+    width:210px;
+    text-align:center;
+    float:right;
+}
+
+.LinhaForm{
+    margin:0px;
+    height:30px;
+    padding:6px 3px 0px 3px;
+}
+
+.ColEsq{
+    width:180px;
+    float:left;
+    display:block;
+}
+
+.ColDir{
+    width:180px;
+    float:right;
+    display:block;
+}
+
+.LabBox{
+    width:80px;
+    float:left;
+    display:block;
+}
+.botoes{
+    text-align:right;
+    margin:20px 10px 0px 10px;
+}
+
+.InpBoxGnd{
+    width:384px;
+    float:right;
+    display:block
+
+}
+
+.InpBoxMed{
+    width:80px;
+    float:right;
+    display:block
+}
+
+.numDD{
+    width:35px;
+}
+
+.numQD{
+    width:50px;
+}
+
+#linhaEnder{
+    height:50px;
+}
+
+#inpEnder{
+    width:384px;
+
+}
+
+#loginCad{
+    width:260px;
+}
+
+#idEmail{
+    width:160px;
+}
+
+#senhaCad{
+    width:180px;
+}
+
+#lisSelProd{
+    width:370px;
+}
+
+#selProduto{
+    width:75%;
+}
+
+#btnIncluir{
+    width:70px;
+}
+
+#boxPedidos{
+    height:100px;
+}
+
+#lisPedArea{
+    height:90%; 
+    width:100%;
+
+}
+
+#fsBandeira{
+    width:85px;
+    height:80px;
+    text-align:left;
+}
+
+#numCartao{
+    width:350px;
+    height:35px;
+    padding-top:10px;
+}
+
+
+#valCartao{
+    width:230px;
+    height:35px;
+}
+
+#boxParcel{
+    width:230px;
+    height:30px;
+}
+.italico{
+    font-style:italic;
+}
+
+input {
+    border-radius:5px;
+}
+
+.listaMemo a:link , .listaMemo a:visited { 
+    color: #005599;
+
+}
+#titDes{
+    height: 60px;
+    text-align: center;
+}
+
+#prcDes{
+    height: 100px;
+    color:#005599
+}
+#imgDes{
+    height: 100px;
+    width: 100px;
+    border:solid 2px #226699;
+    padding: 12px;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tabDisco .colMenu {
+    height: 45px;
+}
+
+.tabDisco a:link , .tabDisco a:visited{
+ color: #005599;
+}
+
+.janInfoDetalhe {
+    text-align:left;
+    font-size: 18px;
+    margin-left:15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Compras </title>
+    <link rel="stylesheet" type="text/css" href="../css/stylePakimemo.css">
+    <script type="text/javascript" src="../js/Compras.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Rubik">
+</head>
+
+<body>
+    <address class="ender">
+        Rua do Paço do Elefantinho, 123<br>
+        Tel: (21) 4321-5678<br>
+        <a href="contato@paquiderme.com.br"> contato@paquiderme.com.br </a>
+    </address>
+    <header>
+        <img src="ImagensPakiMemo/PakiLogoTopo.png" class="imgLogo">
+    </header>
+    <nav>
+        <ul type="square">
+            <li> <a href="PakiMemo.html" target="_blank">INICIAL</a> </li>
+            <li> <a href="Memorias.html" target="_blank">MEMÓRIAS</a> </li>
+            <li> <a href="Discos.html" target="_blank">HDs/SSDs</a> </li>
+            <li> <a href="Cadastro.html" target="_blank">CADASTRO</a> </li>
+            <li> <a href="Compras.html" target="_blank">COMPRAS</a> </li>
+        </ul>
+    </nav>
+
+    <section>
+        <form class="FormBox">
+            <h3>Compras</h3>
+            <fieldset class="FSLinhaInteira">
+                <legend>Identificação</legend>
+
+                <div class="LinhaForm">
+
+                    <div class="ColEsq" id="loginCad">
+                        <label class="LabBox">Email:</label>
+                        <input type="email" class="InpBoxGnd" id="idEmail" name="email">
+                    </div>
+
+                    <div class="ColDir" id="senhaCad">
+                        <label class="LabBox">Senha:</label>
+                        <input type="password" class="InpBoxMed" name="senha">
+                    </div>
+                </div>
+                <div class="LinhaForm">
+                    <span class="italico">Se você ainda não tem cadastro clique <a href="Cadastro.html">aqui</a>!</span>
+                </div>
+            </fieldset>
+
+            <fieldset class="FSLinhaInteira">
+                <legend>Lista de Compras</legend>
+
+                <div class="LinhaForm">
+                    <div id="lisSelProd" class="ColEsq">
+                        <label class="LabBox">Produtos:</label>
+
+                        <select id="selProduto" name="produtos">
+                            <option>
+                                -----
+                            </option>
+                            <optgroup label="Memória DDR3">
+                                <option>Kingston 4GB</option>
+                                <option>Samsung 8GB</option>
+                            </optgroup>
+
+                            <optgroup label="Memória DDR4">
+                                <option>Kingston Fury 8Gb</option>
+                                <option>Corsair Vengeance 8Gb</option>
+                            </optgroup>
+
+                            <optgroup label="HD Sata III">
+                                <option>Western Digital 500GB</option>
+                                <option>Seagate 1TB</option>
+                            </optgroup>
+                            <optgroup label="SSD Sata III">
+                                <option>Samdisk 480GB</option>
+                                <option>Kingston 960Gb</option>
+                            </optgroup>
+                            <optgroup label="SSD M2">
+                                <option>Kingston 500GB</option>
+                                <option>Western Digital 240GB</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="ColDir" id="btnIncluir">
+                        <input type="button" value="Incluir" onClick="comprar()">
+                    </div>
+                </div>
+
+                <div class="LinhaForm" id="boxPedidos">
+                    <textarea id="lisPedArea" name="pedidos" readonly></textarea>
+                </div>
+
+                <div class="LinhaForm ColDir">
+                    <label class=" LabBox" for = "precox">Valor: R$</label>
+                    <input class="InpBoxMed"  name="precox" readonly id="price">
+                </div>
+            </fieldset>
+
+            <fieldset class="FSLinhaInteira">
+                <legend>Dados do Cartão</legend>
+                <fieldset class="FSColDir" id="fsBandeira">
+                    <legend>Bandeira:</legend>
+                    <div>
+                        <input type="radio" name="bandeira" checked>
+                        <label>Visa</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="bandeira">
+                        <label>Master</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="bandeira">
+                        <label>Elo</label>
+                    </div>
+                </fieldset>
+
+                <div class="ColEsq" id="numCartao">
+                    <label class="LabBox">Número:</label>
+                    <input class="numDD" type="number" min="0000" max="9999" name="number">
+                    <input class="numDD" type="number" min="0000" max="9999" name="number">
+                    <input class="numDD" type="number" min="0000" max="9999" name="number">
+                    <input class="numDD" type="number" min="0000" max="9999" name="number">
+                </div>
+
+                <div class="ColEsq" id="valCartao">
+                    <label class="LabBox">Validade:</label>
+                    <input class="numDD" type="number" name="validade">/
+                    <input class="numQD" type="number" name="validade">
+                </div>
+                <div class="ColEsq" id="boxParcel">
+                    <label class="LabBox">Parcelas:</label>
+                    <input class="numDD" type="number" name="parcelas">x Sem Juros
+                </div>
+            </fieldset>
+            <div class="botoes">
+                <input type="submit" value="Confirmar" name="confirmar">
+                <input type="reset" value="Limpar" name="limpar">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
